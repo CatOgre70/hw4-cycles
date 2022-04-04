@@ -22,7 +22,7 @@ public class Main {
         // Task 2. Fridays
         int firstFridayDay = 3;
 
-        System.out.println("В этом месяце первая пятница - это " + firstFridayDay + "-е число");
+        System.out.println("\nВ этом месяце первая пятница - это " + firstFridayDay + "-е число");
         i = firstFridayDay;
         do {
             System.out.println("Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет.");
@@ -33,7 +33,8 @@ public class Main {
         int currentYear = 2077; // Cyberpunk forever!
         int minus200Years = currentYear - 200, plus100Years = currentYear + 100;
 
-        System.out.println("За последние 200 лет комета приближалась к Солнцу и Земле ");
+        System.out.println("\nСейчас " + currentYear + "-ой год, и с вами передача об астрономии\n"
+                + "За последние 200 лет комета приближалась к Солнцу и Земле ");
         for(i = 0; i <= currentYear; i += 79){
             if( i >= minus200Years) {
                 System.out.println("в " + i + "-ом году");

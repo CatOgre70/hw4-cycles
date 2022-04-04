@@ -20,10 +20,10 @@ public class Main {
         System.out.printf("\n");
 
         // Task 2. Fridays
-        int fistFridayDay = 3;
+        int firstFridayDay = 3;
 
-        System.out.println("В этом месяце первая пятница - это " + fistFridayDay + "-е число");
-        i = fistFridayDay;
+        System.out.println("В этом месяце первая пятница - это " + firstFridayDay + "-е число");
+        i = firstFridayDay;
         do {
             System.out.println("Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет.");
             i += 7;

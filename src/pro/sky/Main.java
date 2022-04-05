@@ -7,17 +7,17 @@ public class Main {
         // Task 1. Numbers
         int i = 1;
         while(i <= 10) {
-            System.out.printf(i + " ");
+            System.out.print(i + " ");
             i++;
         }
-        System.out.printf("\n");
+        System.out.print("\n");
 
         i = 10;
         while(i > 0) {
-            System.out.printf(i + " ");
+            System.out.print(i + " ");
             i--;
         }
-        System.out.printf("\n");
+        System.out.print("\n");
 
         // Task 2. Fridays
         int firstFridayDay = 3;

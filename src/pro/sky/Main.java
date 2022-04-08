@@ -60,12 +60,13 @@ public class Main {
                 System.out.println();
             }
         }
+        System.out.println();
 
         // Task 5. Fibonacci numbers
 
         int x = 0, y = 1, z = x + y;
         int numberOfFibonacciNumbers = 10;
-        System.out.print(x + ", " + y + ", " + z + ", ");
+        System.out.print("Fibonacci numbers: " + x + ", " + y + ", " + z + ", ");
         for(i = 4; i < numberOfFibonacciNumbers; i++){
             x = y;
             y = z;

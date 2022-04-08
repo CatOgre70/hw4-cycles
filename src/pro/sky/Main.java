@@ -66,7 +66,8 @@ public class Main {
 
         int x = 0, y = 1, z = x + y;
         int numberOfFibonacciNumbers = 10;
-        System.out.print("First " + numberOfFibonacciNumbers + " Fibonacci numbers: " + x + ", " + y + ", " + z + ", ");
+        System.out.print("First " + numberOfFibonacciNumbers + " Fibonacci numbers: "
+                + x + ", " + y + ", " + z + ", ");
         for(i = 4; i < numberOfFibonacciNumbers; i++){
             x = y;
             y = z;

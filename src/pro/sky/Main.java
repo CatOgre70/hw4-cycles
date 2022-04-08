@@ -43,9 +43,38 @@ public class Main {
         System.out.println("В ближайшие 100 лет у нас с вами будет шанс увидеть комету");
         for(i = 0; i <= plus100Years; i += 79){
             if(i > currentYear) {
-                System.out.println("в " + i + "-ом году");
+                System.out.println("в " + i + "-ом году\n");
             }
         }
 
+        // Task 4. Ping - pong
+        for(i = 1; i <= 30; i++){
+            System.out.print(i + ": ");
+            if(i % 15 == 0){
+                System.out.println("ping pong");
+            } else if(i % 5 == 0){
+                System.out.println("pong");
+            } else if(i % 3 == 0){
+                System.out.println("ping");
+            } else {
+                System.out.println();
+            }
+        }
+
+        // Task 5. Fibonacci numbers
+
+        int x = 0, y = 1, z = x + y;
+        int numberOfFibonacciNumbers = 10;
+        System.out.print(x + ", " + y + ", " + z + ", ");
+        for(i = 4; i < numberOfFibonacciNumbers; i++){
+            x = y;
+            y = z;
+            z = x+y;
+            System.out.print(z + ", ");
+        }
+        x = y;
+        y = z;
+        z = x+y;
+        System.out.println(z);
     }
 }
